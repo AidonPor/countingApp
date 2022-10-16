@@ -1,0 +1,48 @@
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px black;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif   
+}
+
+.container{
+    max-width: 40%;
+    margin: auto;
+    background: #ffffff;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#header{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#count-el{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+button{
+    width: 200px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#increment-btn{
+    background: darkred;
+}
+
+#save-btn{
+    background: darkgreen;
+}
